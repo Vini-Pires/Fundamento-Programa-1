@@ -3,8 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
+int main(){
   int pri = 10;
   int seg = 3;
   int soma;

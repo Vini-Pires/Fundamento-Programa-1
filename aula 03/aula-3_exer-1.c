@@ -9,8 +9,7 @@ do seu amigo e, em outra, o e-mail dele.
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
+int main(){
   printf("\nVinícius de A B Pires\n");
   printf("viniciuspires@alunos.utfpr.edu.br\n");
   printf("\nPressione uma tecla para continuar...\n");
