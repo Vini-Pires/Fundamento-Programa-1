@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main() {
   int pri = 10;
   int seg = 3;
   int soma;
@@ -24,9 +24,9 @@ int main(){
   printf("multiplica %d\n", multiplica);
 
   divisao = (float)pri / seg;
-  printf("divisão %f\n", divisao); // por ter uso de variáveis float o % deve ser com "f"
+  printf("divisão %f\n", divisao);  // por ter uso de variáveis float o % deve ser com "f"
 
-  resto = pri % seg; // somente possível com variáveis int
+  resto = pri % seg;  // somente possível com variáveis int
   printf("resto da divisão %d\n", resto);
 
   printf("\n");

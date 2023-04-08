@@ -9,12 +9,12 @@ do seu amigo e, em outra, o e-mail dele.
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main() {
   printf("\nVinícius de A B Pires\n");
   printf("viniciuspires@alunos.utfpr.edu.br\n");
   printf("\nPressione uma tecla para continuar...\n");
 
-  getchar(); // ele para o código exigindo um carácter especifico, qnd nada é especificado ele aceita qq tecla no windows, ja no linux somente segue com "Enter"
+  getchar();  // ele para o código exigindo um carácter especifico, qnd nada é especificado ele aceita qq tecla no windows, ja no linux somente segue com "Enter"
 
   printf("Neo Matrix\n");
   printf("neo@matriz.com\n");
