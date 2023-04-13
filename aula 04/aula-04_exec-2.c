@@ -17,18 +17,25 @@ int main() {
   float montante, capital, base, tempo;
   float taxa_juros;
   float juros;
+
+  printf("\nInsira a taxa de juros em porcentagem...\n");
   scanf("%f", &taxa_juros);
-  base = 1 + (taxa_juros / 100);
+  printf("Insira por quantos meses iram rodar os juros...\n");
   scanf("%f", &tempo);
-  juros = pow(base, tempo);
+  printf("Insira seu capital inicial para aplicar os juros...\n");
   scanf("%f", &capital);
+
+  base = 1 + (taxa_juros / 100);
+  juros = pow(base, tempo);
   montante = capital * juros;
 
-  printf("montante: %.2f\n", montante);
+  printf("\n");
+  printf("Montante final após os meses: %.2f\n", montante);
+  printf("\n");
 
   return 0;
 }
 
-// gcc -Wall -o ./output/exerc-2 aula-05_exec-2.c -lm
+// gcc -Wall -o ./output/exerc-2 aula-04_exec-2.c -lm
 // ./output/exerc-2
 //  Foi necessário executar o arquivo com a linha de comando acima pois a linguagem c parece ter algum problema mental pra resolver potencia pelo compilador automático (F6)

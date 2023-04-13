@@ -7,8 +7,13 @@
 #define altura 1.70
 
 int main() {
-  float peso;
-  peso = 72.7 * altura - 58;
-  printf("%.2f\n", peso);
+  float pesoIdeal;
+
+  pesoIdeal = 72.7 * altura - 58;
+
+  printf("\n");
+  printf("Peso ideal para alguém de %.2fm: %.2f\n", altura, pesoIdeal);
+  printf("\n");
+
   return 0;
 }
