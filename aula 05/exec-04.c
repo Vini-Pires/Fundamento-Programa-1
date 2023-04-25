@@ -9,30 +9,28 @@ int main() {
   float numero;
   float media;
 
-  printf("digite o numero para media: ");
-  scanf("%f", numero);
+  printf("digite o primeiro numero para media: ");
+  scanf("%f", &numero);
 
   somado += numero;
 
   printf("digite o segundo numero: ");
-  scanf("%f", numero);
+  scanf("%f", &numero);
 
   somado += numero;
 
   printf("digite o terceiro numero: ");
-  scanf("%f", numero);
+  scanf("%f", &numero);
 
   somado += numero;
 
   printf("digite o quarto numero: ");
-  scanf("%f", numero);
+  scanf("%f", &numero);
 
   somado += numero;
   media = somado / 4;
 
-  printf("A media aritmética é: %f", media);
+  printf("A media aritmética é: %f\n", media);
 
   return 0;
 }
-
-// colocar & nos scanf's
