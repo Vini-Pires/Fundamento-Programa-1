@@ -7,25 +7,25 @@
 #include <stdlib.h>
 
 int main(){
-    float quilowattPorReal;
-    float salarioMinimo;
-    float quilowattGasto;
-    float quilowattComDesconto;
-    float contaPagar;
+  float quilowattPorReal;
+  float salarioMinimo;
+  float quilowattGasto;
+  float quilowattComDesconto;
+  float contaPagar;
 
-    printf("Defina o salario minimo\n");
-    scanf("%f", &salarioMinimo);
+  printf("Defina o salario minimo\n");
+  scanf("%f", &salarioMinimo);
 
-    printf("Quantos quilowatts foram gastos\n");
-    scanf("%f", &quilowattGasto);
+  printf("Quantos quilowatts foram gastos\n");
+  scanf("%f", &quilowattGasto);
 
-    quilowattPorReal = (salarioMinimo / (4 * 200));
-    contaPagar = quilowattPorReal * quilowattGasto;
-    quilowattComDesconto = contaPagar - (contaPagar * (12.0 / 100));
+  quilowattPorReal = (salarioMinimo / (4 * 200));
+  contaPagar = quilowattPorReal * quilowattGasto;
+  quilowattComDesconto = contaPagar - (contaPagar * (12.0 / 100));
 
-    printf("Cada quilowatt vale R$%.2f\n", quilowattPorReal); // Resposta A
-    printf("Você pagara R$%.2f gastando %.0f quilowatts\n", contaPagar, quilowattGasto); // Resposta B
-    printf("Com desconto você pagara R$%.2f\n", quilowattComDesconto); // Resposta C
+  printf("Cada quilowatt vale R$%.2f\n", quilowattPorReal); // Resposta A
+  printf("Você pagara R$%.2f gastando %.0f quilowatts\n", contaPagar, quilowattGasto); // Resposta B
+  printf("Com desconto você pagara R$%.2f\n", quilowattComDesconto); // Resposta C
 
-    return 0;
+  return 0;
 }
