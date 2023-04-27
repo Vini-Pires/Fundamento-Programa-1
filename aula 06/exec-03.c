@@ -26,13 +26,13 @@ int main() {
     printf("Essa operação não possui raizes reais");
   } else {
     delta = sqrt(delta);
-    baskara = (-coeficienteBB + delta) / 2 * coeficienteAA;
+    baskara = (-coeficienteBB + delta) / (2 * coeficienteAA);
     if (delta == 0) {
       printf("Essa operação possui somente 1 Raiz de X: %f", baskara);
     } else {
       printf("Essa operação possui duas raizes reais:\n");
       printf("Raiz de X1: %.3f\n", baskara);
-      baskara = (-coeficienteBB - delta) / 2 * coeficienteAA;
+      baskara = (-coeficienteBB - delta) / (2 * coeficienteAA);
       printf("Raiz de X2: %.3f", baskara);
     }
   }
