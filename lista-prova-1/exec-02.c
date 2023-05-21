@@ -1,9 +1,9 @@
 // 2) Fazer um programa para ler as coordenadas x e y de dois pontos e calcular a distância entre os dois pontos no plano, através da seguinte fórmula:
 // dist = sqrt( (x2-x1)² + (y2 - y1)² )
 
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int main() {
   float coordUmPontoX;
